@@ -1,8 +1,8 @@
 Rails.application.configure do
 
   ActionCable.server.config.disable_request_forgery_protection = true
-  config.action_cable.url = "wss://mini-talk-app.herokuapp.com/cable"
-  config.action_cable.allowed_request_origins = ['https//mini-talk-app.herokuapp.com', 'http://mini-talk-app.herokuapp.com']
+  config.action_cable.url = "wss://mini-talk-app-30428 .herokuapp.com/cable"
+  config.action_cable.allowed_request_origins = ['https//mini-talk-app-30428 .herokuapp.com', 'http://mini-talk-app-30428 .herokuapp.com']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
